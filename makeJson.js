@@ -1,7 +1,8 @@
 const fs = require("fs");
 
 // Read the JSON file line by line
-const fileContents = fs.readFileSync("file_name", "utf-8").split("\n");
+const path = "path";
+const fileContents = fs.readFileSync(path, "utf-8").split("\n");
 
 const jsonArray = [];
 
